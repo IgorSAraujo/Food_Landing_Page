@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: clamp(2.5rem, 1.667rem + 2.315vw, 3.75rem)
+    clamp(1.563rem, -0.729rem + 6.366vw, 5rem);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Color-Orange);
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: var(--Color-White);
+    }
+    input {
+      box-sizing: border-box;
+      width: 80%;
+      color: var(--Color-White);
+      border: 1px solid var(--Color-White);
+      background-color: transparent;
+      padding: 10px 0px;
+      padding-inline: 1.875rem;
+      font-size: clamp(0.875rem, 0.792rem + 0.231vw, 1rem);
+      color: var(--Color-White);
+      border-radius: 255px;
+    }
+    input::placeholder {
+      color: var(--Color-White);
+    }
+    button {
+      background-color: var(--Color-Dark-Green);
+      width: fit-content;
+    }
+  }
+}
+
+input:focus {
+  border: 1px solid var(--Color-White);
+}
