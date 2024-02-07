@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px clamp(1.563rem, -0.729rem + 6.366vw, 5rem);
+  margin: clamp(2.5rem, 1.667rem + 2.315vw, 3.75rem) 0px;
+  gap: 13%;
+  align-items: center;
+
+  .containerTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+
+    img {
+      width: fit-content;
+    }
+  }
+}
