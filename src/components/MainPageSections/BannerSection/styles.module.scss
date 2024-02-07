@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px clamp(1.563rem, -0.729rem + 6.366vw, 5rem);
+  margin: clamp(2.5rem, 1.667rem + 2.315vw, 3.75rem) 0px;
+  gap: 15%;
+  align-items: center;
+
+  .containerInfos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    p {
+      width: 95%;
+    }
+
+    button {
+      width: fit-content;
+      background-color: var(--Color-Orange);
+      border: 0px;
+    }
+  }
+  .containerImg {
+    box-sizing: border-box;
+  }
+}

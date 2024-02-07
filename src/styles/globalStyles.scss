@@ -1,0 +1,14 @@
+@import "./reset.scss";
+@import "./typography.scss";
+@import "./button.scss";
+:root  {
+  --Color-White: #ffffff;
+  --Color-Black: #000000;
+  --Color-Orange: #e3512a;
+  --Color-Salmon: #eadece;
+  --Color-Dark-Green: #2a645c;
+}
+
+body {
+  background-color: var(--Color-Salmon);
+}

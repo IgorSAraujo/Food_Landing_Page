@@ -1,5 +1,12 @@
+import "./styles/globalStyles.scss"
+import { MainPage } from "./pages/MainPage"
+
 function App() {
-  return <></>
+  return (
+    <>
+      <MainPage />
+    </>
+  )
 }
 
 export default App

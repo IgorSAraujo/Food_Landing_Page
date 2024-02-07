@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Color-Dark-Green);
+  box-sizing: border-box;
+  padding: clamp(2.5rem, 1.667rem + 2.315vw, 3.75rem)
+    clamp(1.563rem, -0.729rem + 6.366vw, 5rem);
+  margin: clamp(2.5rem, 0.833rem + 4.63vw, 5rem) 0px;
+  align-items: start;
+  justify-content: center;
+  gap: 3.75rem;
+
+  .containerTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+    h1 {
+      color: var(--Color-White);
+    }
+    img {
+      width: fit-content;
+    }
+  }
+  .containerRest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .containerCards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        img {
+          width: 100%;
+        }
+        p {
+          color: var(--Color-White);
+        }
+      }
+    }
+  }
+}
