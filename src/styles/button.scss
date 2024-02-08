@@ -5,4 +5,8 @@
   color: var(--Color-White);
   border-radius: 255px;
   border: 0px;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
 }

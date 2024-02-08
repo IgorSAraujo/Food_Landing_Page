@@ -16,3 +16,31 @@
     }
   }
 }
+
+@media (width<=768px) {
+  .container {
+    flex-direction: column;
+    gap: 2.1875rem;
+
+    .containerTitle {
+      width: 100%;
+      gap: 15px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+@media (width<=576px) {
+  .container {
+    flex-direction: column;
+    gap: 2.1875rem;
+
+    .containerTitle {
+      gap: 15px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}

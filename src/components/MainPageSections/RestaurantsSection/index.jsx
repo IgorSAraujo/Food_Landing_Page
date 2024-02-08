@@ -13,7 +13,7 @@ export const RestaurantsSection = () => {
       <div className={styles.containerRest}>
         <ul className={styles.containerCards}>
           {restaurants.map((restaurant) => (
-            <RestaurantList restaurants={restaurant} />
+            <RestaurantList key={restaurant.id} restaurants={restaurant} />
           ))}
         </ul>
       </div>

@@ -3,9 +3,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 0px;
+  padding: 25px clamp(1.563rem, -0.729rem + 6.366vw, 5rem);
 
   p {
     color: var(--Color-White);
+  }
+}
+
+@media (width<=576px) {
+  p {
+    text-align: center;
   }
 }
